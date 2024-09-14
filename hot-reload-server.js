@@ -18,7 +18,6 @@ function debounce(func, timeout = 400) {
     }, timeout);
   };
 }
-
 chokidar
   .watch(EXTENSION_DIRECTORY, {
     ignoreInitial: true,
