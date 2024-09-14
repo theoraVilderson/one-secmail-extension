@@ -1,23 +1,23 @@
 {
   "manifest_version": 3,
-  "name": "extension name",
+  "name": "1secmail (temporary mail)",
   "version": "1.0.3",
   "icons": {
-    "16": "dist/icons/icon16.png",
-    "40": "dist/icons/icon40.png",
-    "48": "dist/icons/icon48.png",
-    "73": "dist/icons/icon73.png",
-    "128": "dist/icons/icon128.png",
-    "240": "dist/icons/icon240.png"
+    "16": "./dist/icons/16x16.png",
+    "24": "./dist/icons/24x24.png",
+    "32": "./dist/icons/32x32.png",
+    "48": "./dist/icons/48x48.png",
+    "128": "./dist/icons/128x128.png",
+    "256": "./dist/icons/256x256.png"
   },
   "action": {
     "icons": {
-      "16": "dist/icons/icon16.png",
-      "40": "dist/icons/icon40.png",
-      "48": "dist/icons/icon48.png",
-      "73": "dist/icons/icon73.png",
-      "128": "dist/icons/icon128.png",
-      "240": "dist/icons/icon240.png"
+      "16": "./dist/icons/16x16.png",
+      "24": "./dist/icons/24x24.png",
+      "32": "./dist/icons/32x32.png",
+      "48": "./dist/icons/48x48.png",
+      "128": "./dist/icons/128x128.png",
+      "256": "./dist/icons/256x256.png"
     },
     "default_popup": "dist/pages/popup/html_pop.html"
   },
@@ -37,13 +37,9 @@
     }
   ],
   "host_permissions": ["<all_urls>"],
-  "permissions": [
-    "storage",
-    "tabs",
-    "contextMenus",
-    "notifications",
-    "declarativeNetRequest",
-    "management"
-  ],
-  "description": "your description"
+  "permissions": ["storage", "tabs", "contextMenus", "notifications","declarativeNetRequest","management"],
+  "description": "On this website you can create a temporary (disposable) email in a second, that self-destructs after some time. Stay safe, avoid spam - take care of your anonymity. You can select from many domains and create own nick. Smart, huh? more=> https://www.1secmail.com/"
+
 }
+
+

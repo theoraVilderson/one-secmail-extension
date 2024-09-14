@@ -1,7 +1,6 @@
 import React from "react";
-import ReactDom from "react-dom";
+import { render } from "react-dom";
 import Popup from "./Popup";
 
-const root = document.getElementById("root");
-
-ReactDom.render(<Popup />, root);
+const domNode = document.getElementById("root");
+render(<Popup />, domNode);
